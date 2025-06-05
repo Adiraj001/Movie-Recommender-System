@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import base64
 import os
-from sklearn.neighbors import NearestNeighbors
+
 
 # --- Efficient data loading (optimized for fast website startup) ---
 final_movies_path = 'artifacts/FinalMovies.pkl'
