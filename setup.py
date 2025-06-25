@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 Author_NAME = "Aditya Raj Pandey"
 SRC = 'src'
-LIST_OF_REQUIREMENTS = ["streamlit , scikit-learn , pandas , numpy , matplotlib , seaborn"]
+LIST_OF_REQUIREMENTS = ["streamlit"]
 
 setup(
     name="SRC_repo",

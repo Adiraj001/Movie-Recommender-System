@@ -2,10 +2,8 @@ import pickle
 import streamlit as st
 import base64
 import os
-import sklearn
 from sklearn.neighbors import NearestNeighbors
 
-# --- Efficient data loading (optimized for fast website startup) ---
 final_movies_path = 'artifacts/FinalMovies.pkl'
 cv_path = 'artifacts/cv.pkl'
 
@@ -40,7 +38,7 @@ def get_base64_of_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-# --- UI Styling ---
+
 img_path = 'assets/background.jpg'
 if os.path.exists(img_path):
     img_base64 = get_base64_of_bin_file(img_path)
